@@ -30,3 +30,13 @@ body {
     max-width: 700px;
     height: auto;
 }
+
+.page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page + .page {
+    margin-top: 40px;
+}
