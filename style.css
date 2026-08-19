@@ -6,6 +6,8 @@
 
 html,
 body {
+    margin: 0;
+    padding: 0;
     width: 100%;
     min-height: 100%;
     background: #f7e8e5;
@@ -22,6 +24,11 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
+}
+
+.page:last-child{
+    margin-bottom: 0;
 }
 
 .page img {
@@ -29,14 +36,4 @@ body {
     width: 100%;
     max-width: 700px;
     height: auto;
-}
-
-.page {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.page + .page {
-    margin-top: 80px;
 }
