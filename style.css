@@ -22,8 +22,7 @@ body {
 
 .page {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: block;
     margin-bottom: 60px;
 }
 
